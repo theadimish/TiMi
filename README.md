@@ -3,33 +3,37 @@ TiMi (short for Tendentious Intrinsic Modus Inference) is a smart AI-powered voi
 
 Developed by Solo Coder Aditya — a creative mind passionate about AI, automation, and voice-powered systems.
 
+---
+
 # 👤 Creator
 Aditya Mishra
 
-# 🚀 Features & Capabilities
-# 🎙️ Voice-Controlled Commands
+---
+
+🚀 Features & Capabilities
+🎙️ Voice-Controlled Commands
 
 Speak naturally, TiMi listens and responds.
 
 Trigger tasks with simple phrases like "open YouTube", "what's the time", or "take a screenshot".
 
-# 🧠 Smart Wikipedia Search
+🧠 Smart Wikipedia Search
 
 Ask factual questions, and TiMi will summarize answers from Wikipedia.
 
-# 🌤️ Weather Updates
+🌤️ Weather Updates
 
 Instantly fetches the current temperature in Bengaluru (or modifiable to other locations).
 
-# 🔋 Battery Status Monitor
+🔋 Battery Status Monitor
 
 Announces battery percentage and gives power-saving advice.
 
-# 📸 Screenshot Capture
+📸 Screenshot Capture
 
 Takes and saves screenshots via voice prompt with custom names.
 
-# 📂 App & Browser Automation
+📂 App & Browser Automation
 
 Open/close:
 
@@ -43,15 +47,15 @@ VS Code
 
 WhatsApp
 
-# 🎵 Music Playback
+🎵 Music Playback
 
 Plays random songs from your local music directory.
 
-# 🔉 System Volume Control
+🔉 System Volume Control
 
 Voice-controlled volume up/down, mute, and unmute.
 
-# 🖼️ Modern GUI with Animation
+🖼️ Modern GUI with Animation
 
 Built using PyQt5
 
@@ -59,11 +63,13 @@ Animated background and wave effects
 
 Custom buttons for starting and terminating the assistant
 
-# 🖥️ System Commands
+🖥️ System Commands
 
 Restart or shut down your PC with your voice.
 
-# 🧱 Project Structure
+---
+
+🧱 Project Structure
 bash
 Copy
 Edit
@@ -72,7 +78,10 @@ TiMi/
 ├── TiMiUi.py       # PyQt5 UI file (auto-generated from TiMiUi.ui)
 ├── designer.exe    # Qt Designer tool to edit the UI visually (optional)
 └── assets/         # Referenced images (e.g., AIbg.png, AIwave1.gif)
-# 💡 Tech Stack
+
+---
+
+💡 Tech Stack
 Tech	Purpose
 Python	Core programming language
 PyQt5	GUI development
@@ -84,7 +93,9 @@ pyautogui	GUI automation (volume, screenshot, etc.)
 Wikipedia API	Knowledge fetching
 psutil	Battery monitoring
 
-# 📥 Installation & Setup
+---
+
+📥 Installation & Setup
 1️⃣ Clone the Repository
 bash
 Copy
@@ -109,6 +120,9 @@ bash
 Copy
 Edit
 python TiMi.py
+
+---
+
 🎬 How It Works
 Launch the PyQt5 GUI.
 
@@ -120,7 +134,9 @@ TiMi listens, processes your voice, and performs the task.
 
 Click Terminate to close the application.
 
-# 📌 Future Improvements
+---
+
+📌 Future Improvements
 Add wake-word detection (e.g., "Hey TiMi") using Vosk or Snowboy
 
 Support for multiple languages
@@ -133,10 +149,12 @@ Deploy as a cross-platform assistant (Windows, Linux)
 
 Replace hardcoded paths with user-configurable settings
 
-# 📝 License
+---
+
+📝 License
 This project is for educational and demonstration purposes only.
 
-# 📬 Contact
+📬 Contact
 Have ideas, questions, or want to collaborate?
 Reach out or open an issue.
 
